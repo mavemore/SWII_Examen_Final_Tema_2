@@ -84,8 +84,8 @@ Característica: Cotizar hombres solteros.
       Cuando solicite la cotizacion 
       Entonces obtiene el mensaje 'El valor calculado de su cotización es de 90.00'
 
-   Escenario: Hombre soltero de la ciudad de Guayaquil de 71 años con 2 dependientes con diabetes de pre-existencia 
-      Dado que la ciudad del cliente es Guayaquil
+   Escenario: Hombre soltero de la ciudad de Quito de 71 años con 2 dependientes con diabetes de pre-existencia 
+      Dado que la ciudad del cliente es Quito
       Dado que la edad del cliente es 71
       Dado que el genero del cliente es hombre
       Dado que el estado civil del cliente es soltero
