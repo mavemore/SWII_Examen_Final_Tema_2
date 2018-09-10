@@ -4,8 +4,8 @@ Característica: Cotizar hombres solteros.
 
   @hombres_solteros
 
-   Escenario: Hombre soltero de la ciudad de Esmeraldas de 22 años con 4 dependientes y pre-existencias cancer
-      Dado que la ciudad del cliente es Esmeraldas
+   Escenario: Hombre soltero de la ciudad de Guaranda de 22 años con 4 dependientes y pre-existencias cancer
+      Dado que la ciudad del cliente es Guaranda
       Dado que la edad del cliente es 22
       Dado que el genero del cliente es hombre
       Dado que el estado civil del cliente es soltero
@@ -14,8 +14,8 @@ Característica: Cotizar hombres solteros.
       Cuando solicite la cotizacion 
       Entonces obtiene el mensaje 'Saludcita no opera en la ciudad ingresada.'
 
-   Escenario: Hombre soltero de la ciudad de Quito de 17 años con 0 dependientes y pre-existencias osteoporosis
-      Dado que la ciudad del cliente es Quito
+   Escenario: Hombre soltero de la ciudad de Cuenca de 17 años con 0 dependientes y pre-existencias osteoporosis
+      Dado que la ciudad del cliente es Cuenca
       Dado que la edad del cliente es 17
       Dado que el genero del cliente es hombre
       Dado que el estado civil del cliente es soltero
