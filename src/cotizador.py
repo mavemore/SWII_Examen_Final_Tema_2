@@ -64,8 +64,7 @@ def cotizar_seguro(ciudad, edad, sexo, estado_civil, especial, dependientes):
 			else:
 				resultado = "La edad ingresada no es válida. Debe de encontrarse entre 18 y 75 años."
 		elif dependientes <=9 and dependientes > 4:
-			resultado = "Solo se puede realizar la cotización para hasta 4 dependientes en línea. \
-			Por favor acérquese a la agencia y presente una solicitud."
+			resultado = "Solo se puede realizar la cotización para hasta 4 dependientes en línea. Por favor acérquese a la agencia y presente una solicitud."
 		else:
 			resultado = "No se puede realizar una cotización para el valor ingresado de dependientes."
 	else:
